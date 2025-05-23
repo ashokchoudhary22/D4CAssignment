@@ -10,7 +10,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.d4c.assignment.ui.components.PromoBannerCarousel
+import com.d4c.assignment.ui.screens.ShopScreen
 import com.d4c.assignment.ui.theme.D4CAssignmentTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             D4CAssignmentTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    PromoBannerCarousel(Modifier.padding(innerPadding), promoBannerDummyDataList)
+                    ShopScreen(Modifier.padding(innerPadding))
                 }
             }
         }

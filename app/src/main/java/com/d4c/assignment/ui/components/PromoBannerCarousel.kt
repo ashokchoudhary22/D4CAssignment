@@ -36,13 +36,12 @@ import com.d4c.assignment.ui.theme.GreenPrimary
 @Composable
 @OptIn(ExperimentalFoundationApi::class)
 fun PromoBannerCarousel(
-    modifier: Modifier = Modifier,
     banners: List<PromoBannerData>,
 ) {
     val pagerState = rememberPagerState(pageCount = { banners.size })
 
     Box(
-        modifier = modifier
+        modifier = Modifier
             .fillMaxWidth()
             .wrapContentHeight()
     ) {
