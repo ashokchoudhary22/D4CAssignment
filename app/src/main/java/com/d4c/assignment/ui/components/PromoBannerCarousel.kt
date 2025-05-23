@@ -29,7 +29,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.d4c.assignment.R
 import com.d4c.assignment.models.PromoBannerData
-import com.d4c.assignment.promoBannerDummyDataList
+import com.d4c.assignment.SamplePromoBannersDataList
 import com.d4c.assignment.ui.theme.D4CAssignmentTheme
 import com.d4c.assignment.ui.theme.GreenPrimary
 
@@ -132,6 +132,6 @@ fun PromoBannerCard(
 @Composable
 fun GreetingPreview() {
     D4CAssignmentTheme {
-        PromoBannerCarousel(banners = promoBannerDummyDataList)
+        PromoBannerCarousel(banners = SamplePromoBannersDataList)
     }
 }

@@ -3,4 +3,6 @@
     <string name="not_implemented_yet">Not Implemented Yet!</string>
     <string name="back">Back</string>
     <string name="shop">Shop</string>
+    <string name="categories">Categories</string>
+    <string name="see_all">See all</string>
 </resources>
