@@ -98,14 +98,14 @@ fun IconWithBadge(icon: ImageVector, badgeCount: Int, onClick: () -> Unit) {
                 modifier = Modifier
                     .align(Alignment.BottomEnd)
                     .offset(x = (2).dp, y = (2).dp)
-                    .size(18.dp)
+                    .size(22.dp)
                     .background(GreenPrimary, shape = CircleShape),
                 contentAlignment = Alignment.Center
             ) {
                 Text(
                     text = badgeCount.toString(),
                     color = Color.Black,
-                    fontSize = 10.sp,
+                    fontSize = 12.sp,
                     fontWeight = FontWeight.Bold
                 )
             }

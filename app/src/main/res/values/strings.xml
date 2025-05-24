@@ -5,4 +5,9 @@
     <string name="shop">Shop</string>
     <string name="categories">Categories</string>
     <string name="see_all">See all</string>
+    <string name="new_products">New products</string>
+    <string name="in_stock">In stock</string>
+    <string name="out_of_stock">Out of stock</string>
+    <string name="dot_divider">•</string>
+    <string name="best_seller">Best seller</string>
 </resources>
